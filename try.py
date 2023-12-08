@@ -1,6 +1,6 @@
 import sys
 #print(sys.path)
-sys.path.insert(0, "C:\\Users\\clarklab\\PySeqX-master-JacobEdits\\PySeqX-master")
+sys.path.insert(0, "C:\\Users\\clarklab\\PySeqX\\PySeqX-master-JacobEdits\\PySeqX-master")
 import pyseq
 
 hs = pyseq.HiSeq() 
