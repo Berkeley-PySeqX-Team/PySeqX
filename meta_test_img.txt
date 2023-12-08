@@ -1,0 +1,22 @@
+time 20231106_111348
+y -71
+x 30000
+z [0, 0, 0]
+obj 32768
+frames 1
+bundle 128
+TDIY 3
+laser1 -1
+laser2 -1
+ex filters ['home', 'home']
+em filter in True
+interval 1 0.0028032
+interval 2 0.0028032
+flowcell A None °C
+flowcell B None °C
+frame count 1 1
+frame count 2 1
+clines TDICLINES 1023
+
+pulses TDIPULSES 129
+

@@ -1,0 +1,16 @@
+time 20231110_160834
+y 745
+x 30000
+z [1996, 1995, 1996]
+obj 32768
+frames 128
+bundle 128
+TDIY 638
+laser1 -1
+laser2 -1
+ex filters ['home', 'home']
+em filter in True
+interval 1 0.0028032
+interval 2 0.0028032
+flowcell A None °C
+flowcell B None °C

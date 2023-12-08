@@ -1,0 +1,22 @@
+time 20231110_155330
+y -3999921
+x 30000
+z [1996, 1995, 1996]
+obj 32768
+frames 16
+bundle 128
+TDIY -3999907
+laser1 -1
+laser2 0
+ex filters ['home', 'home']
+em filter in True
+interval 1 0.0028032
+interval 2 0.0028032
+flowcell A None °C
+flowcell B None °C
+frame count 1 16
+frame count 2 16
+clines TDICLINES 1023
+
+pulses TDIPULSES 8537
+

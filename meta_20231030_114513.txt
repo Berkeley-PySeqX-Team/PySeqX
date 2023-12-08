@@ -1,0 +1,16 @@
+time 20231030_114612
+y -1188
+x 0
+z [0, 0, 0]
+obj None
+frames 2
+bundle 128
+TDIY -1169
+laser1 -1
+laser2 0
+ex filters [None, None]
+em filter in None
+interval 1 0.0028031999999999996
+interval 2 0.0028031999999999996
+flowcell A None °C
+flowcell B None °C

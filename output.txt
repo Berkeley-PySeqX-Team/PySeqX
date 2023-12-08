@@ -1,0 +1,1010 @@
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+HiSeq::Syncing Y stage
+Ystage::txmt::g r0x17
+
+Ystage::rcvd::v 112
+
+Ystage::txmt::g r0x32
+
+Ystage::rcvd::v -111
+
+TDIYERD 4046099
+
+TDIYEWR
+
+TDIYERD 7000090
+
+TDIYEWR
+
+TDIYERD 6999887
+
+TDIYEWR
+
+TDIYERD 7000077
+
+TDIYEWR
+
+TDIYERD 6999895
+
+TDIYEWR
+
+TDIYERD 7000030
+
+TDIYEWR
+
+TDIYERD 6999984
+
+TDIYEWR
+
+TDIYERD 6999969
+
+TDIYEWR
+
+TDIYERD 7000033
+
+TDIYEWR
+
+TDIYERD 6999947
+
+TDIYEWR
+
+TDIYERD 7000057
+
+TDIYEWR
+
+TDIYERD 6999898
+
+TDIYEWR
+
+TDIYERD 7000162
+
+TDIYEWR
+
+TDIYERD 6999869
+
+TDIYEWR
+
+TDIYERD 7000145
+
+TDIYEWR
+
+TDIYERD 6999884
+
+TDIYEWR
+
+TDIYERD 7000115
+
+TDIYEWR
+
+TDIYERD 6999929
+
+TDIYEWR
+
+TDIYERD 7000063
+
+TDIYEWR
+
+TDIYERD 6999952
+
+TDIYEWR
+
+TDIYERD 7000033
+
+TDIYEWR
+
+TDIYERD 6999970
+
+TDIYEWR
+
+TDIYERD 7000006
+
+TDIYEWR
+
+TDIYERD 6999986
+
+TDIYEWR
+
+TDIYERD 6999984
+
+TDIYEWR
+
+TDIYERD 7000007
+
+TDIYEWR
+
+TDIYERD 6999965
+
+TDIYEWR
+
+TDIYERD 7000015
+
+TDIYEWR
+
+TDIYERD 6999954
+
+TDIYEWR
+
+TDIYERD 7000034
+
+TDIYEWR
+
+TDIYERD 6999933
+
+TDIYEWR
+
+TDIYERD 7000046
+
+TDIYEWR
+
+TDIYERD 6999933
+
+TDIYEWR
+
+TDIYERD 7000059
+
+TDIYEWR
+
+TDIYERD 6999910
+
+TDIYEWR
+
+TDIYERD 7000059
+
+TDIYEWR
+
+TDIYERD 6999982
+
+TDIYEWR
+
+TDIYERD 6999904
+
+TDIYEWR
+
+TDIYERD 7000157
+
+TDIYEWR
+
+TDIYERD 6999822
+
+TDIYEWR
+
+TDIYERD 7000229
+
+TDIYEWR
+
+TDIYERD 6999788
+
+TDIYEWR
+
+TDIYERD 7000240
+
+TDIYEWR
+
+TDIYERD 6999774
+
+TDIYEWR
+
+TDIYERD 7000199
+
+TDIYEWR
+
+TDIYERD 6999829
+
+TDIYEWR
+
+TDIYERD 7000064
+
+TDIYEWR
+
+TDIYERD 7000013
+
+TDIYEWR
+
+TDIYERD 6999896
+
+TDIYEWR
+
+TDIYERD 7000165
+
+TDIYEWR
+
+TDIYERD 6999835
+
+TDIYEWR
+
+TDIYERD 7000211
+
+TDIYEWR
+
+TDIYERD 6999787
+
+TDIYEWR
+
+TDIYERD 7000229
+
+TDIYEWR
+
+TDIYERD 6999788
+
+TDIYEWR
+
+TDIYERD 7000160
+
+TDIYEWR
+
+TDIYERD 6999897
+
+TDIYEWR
+
+TDIYERD 7000031
+
+TDIYEWR
+
+TDIYERD 7000013
+
+TDIYEWR
+
+TDIYERD 6999925
+
+TDIYEWR
+
+TDIYERD 7000096
+
+TDIYEWR
+
+TDIYERD 6999846
+
+TDIYEWR
+
+TDIYERD 7000231
+
+TDIYEWR
+
+TDIYERD 6999793
+
+TDIYEWR
+
+TDIYERD 7000228
+
+TDIYEWR
+
+TDIYERD 6999817
+
+TDIYEWR
+
+TDIYERD 7000068
+
+TDIYEWR
+
+TDIYERD 6999967
+
+TDIYEWR
+
+TDIYERD 6999949
+
+TDIYEWR
+
+TDIYERD 7000115
+
+TDIYEWR
+
+TDIYERD 6999839
+
+TDIYEWR
+
+TDIYERD 7000236
+
+TDIYEWR
+
+TDIYERD 6999792
+
+TDIYEWR
+
+TDIYERD 7000212
+
+TDIYEWR
+
+TDIYERD 6999794
+
+TDIYEWR
+
+TDIYERD 7000131
+
+TDIYEWR
+
+TDIYERD 6999908
+
+TDIYEWR
+
+TDIYERD 6999975
+
+TDIYEWR
+
+TDIYERD 7000125
+
+TDIYEWR
+
+TDIYERD 6999838
+
+TDIYEWR
+
+TDIYERD 7000234
+
+TDIYEWR
+
+TDIYERD 6999780
+
+Traceback (most recent call last):
+  File "C:\Users\clarklab\Desktop\test.py", line 8, in <module>
+    hs.initializeInstruments()          # Initialize x,y,z & objective stages. Initialize lasers and optics (filters)
+    self.f.write_position(0)
+  File "C:\Users\clarklab\PySeqX-master-JacobEdits\PySeqX-master\pyseq\fpga.py", line 174, in write_position
+    self.command('TDIYEWR ' + str(position))
+  File "C:\Users\clarklab\PySeqX-master-JacobEdits\PySeqX-master\pyseq\fpga.py", line 133, in command
+    response = self.serial_port.readline()
+  File "C:\Users\clarklab\mambaforge\envs\pyseq\lib\site-packages\serial\serialutil.py", line 549, in readinto
+    data = self.read(len(b))
+  File "C:\Users\clarklab\mambaforge\envs\pyseq\lib\site-packages\serial\serialwin32.py", line 288, in read
+    result_ok = win32.GetOverlappedResult(
+KeyboardInterrupt
+(pyseq) PS C:\Users\clarklab\Desktop> python test.py
+HiSeq::Initializing cameras 
+Cam0::sensor_mode set to 4.0
+Cam0::sensor_mode_line_bundle_height set to 128.0
+Cam0::subarray_mode set to 1.0
+Cam0::subarray_mode set to 1.0
+Cam0::camera status is : stable
+Cam1::sensor_mode set to 4.0
+Cam1::sensor_mode_line_bundle_height set to 128.0
+Cam1::subarray_mode set to 1.0
+Cam1::subarray_mode set to 1.0
+Cam1::camera status is : stable
+HiSeq::Initializing FPGA
+@LOG The FPGA is now online.  Enjoy!
+
+RESET
+
+EX1HM
+
+EX2HM
+
+EM2I
+
+SWLSRSHUT
+
+LEDMODE1
+
+LEDMODE2
+
+LEDMODE1
+
+LEDMODE2
+
+HiSeq::Initializing X & Y stages
+Ystage::txmt::OFF
+
+Ystage::rcvd::e 3
+
+Ystage::Error codes::3::Unknown command code
+Copyright 2010 Schneider Electric Motion USA
+
+EM=2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+1
+
+0
+
+30000
+
+
+1
+
+0
+
+29000
+
+1
+
+
+1
+
+0
+
+31000
+
+0
+
+
+1
+
+0
+
+30000
+
+Ystage::txmt::r
+
+Ystage::rcvd::
+Ystage::txmt::s r0xc8 0
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xcb 1000000
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xcc 10000
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xcd 10000
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0x24 21
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xc4 1
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xc5 2500
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xc6 1000
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xc2 513
+
+Ystage::rcvd::ok
+
+Ystage::txmt::t 2
+
+Ystage::rcvd::ok
+
+HiSeq::Initializing lasers
+HiSeq::Initializing pumps and valves
+ID
+ID = not used
+
+NP
+NP = 10
+
+ID
+ID = not used
+
+NP
+NP = 10
+
+ID
+ID = not used
+
+NP
+NP = 10
+
+ID
+ID = not used
+
+NP
+NP = 10
+
+HiSeq::Initializing optics and Z stages 
+
+
+
+
+
+
+T1RD 0
+
+T2RD 0
+
+T3RD 0
+
+T1RD 0
+
+T2RD 0
+
+T3RD 0
+
+T1CR
+
+T2CR
+
+T3CR
+
+T1RD 0
+
+T2RD 0
+
+T3RD 0
+
+T1RD 0
+
+T2RD 0
+
+T3RD 0
+
+ZDACR 32768
+
+ZSTEP 
+
+EX1HM
+
+EX2HM
+
+EM2I
+
+A1
+
+Illumina,Bruno Fluidics Controller,0,v2.0420:A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+HiSeq::Syncing Y stage
+testing is_moving
+
+Ystage::rcvd::v 268435456
+
+Ystage::Status Register::28:: Velocity window. Set if the absolute velocity error exceeds the velocity window value.
+Traceback (most recent call last):
+  File "C:\Users\clarklab\Desktop\test.py", line 8, in <module>
+    hs.initializeInstruments()          # Initialize x,y,z & objective stages. Initialize lasers and optics (filters)
+  File "C:\Users\clarklab\PySeqX-master-JacobEdits\PySeqX-master\pyseq\__init__.py", line 301, in initializeInstruments
+    while self.y.is_moving():
+TypeError: 'bool' object is not callable
+(pyseq) PS C:\Users\clarklab\Desktop> python test.py
+HiSeq::Initializing cameras 
+Cam0::sensor_mode set to 4.0
+Cam0::sensor_mode_line_bundle_height set to 128.0
+Cam0::subarray_mode set to 1.0
+Cam0::subarray_mode set to 1.0
+Cam0::camera status is : stable
+Cam1::sensor_mode set to 4.0
+Cam1::sensor_mode_line_bundle_height set to 128.0
+Cam1::subarray_mode set to 1.0
+Cam1::subarray_mode set to 1.0
+Cam1::camera status is : stable
+HiSeq::Initializing FPGA
+@LOG The FPGA is now online.  Enjoy!
+
+RESET
+
+EX1HM
+
+EX2HM
+
+EM2I
+
+SWLSRSHUT
+
+LEDMODE1
+
+LEDMODE2
+
+LEDMODE1
+
+LEDMODE2
+
+HiSeq::Initializing X & Y stages
+Ystage::txmt::OFF
+
+Ystage::rcvd::e 3
+
+Ystage::Error codes::3::Unknown command code
+Copyright 2010 Schneider Electric Motion USA
+
+EM=2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+1
+
+0
+
+30000
+
+
+1
+
+0
+
+29000
+
+1
+
+
+1
+
+0
+
+31000
+
+0
+
+
+1
+
+0
+
+30000
+
+Ystage::txmt::r
+
+Ystage::rcvd::
+Ystage::txmt::s r0xc8 0
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xcb 1000000
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xcc 10000
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xcd 10000
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0x24 21
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xc4 1
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xc5 2500
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xc6 1000
+
+Ystage::rcvd::ok
+
+Ystage::txmt::s r0xc2 513
+
+Ystage::rcvd::ok
+
+Ystage::txmt::t 2
+
+Ystage::rcvd::ok
+
+HiSeq::Initializing lasers
+HiSeq::Initializing pumps and valves
+ID
+ID = not used
+
+NP
+NP = 10
+
+ID
+ID = not used
+
+NP
+NP = 10
+
+ID
+ID = not used
+
+NP
+NP = 10
+
+ID
+ID = not used
+
+NP
+NP = 10
+
+HiSeq::Initializing optics and Z stages 
+
+
+
+
+
+
+T1RD 0
+
+T2RD 9
+
+T3RD -1
+
+T1RD 0
+
+T2RD 9
+
+T3RD -1
+
+T1CR
+
+T2CR
+
+T3CR
+
+T1RD 0
+
+T2RD 0
+
+T3RD 0
+
+T1RD 0
+
+T2RD 0
+
+T3RD 0
+
+ZDACR 32768
+
+ZSTEP 
+
+EX1HM
+
+EX2HM
+
+EM2I
+
+A1
+
+Illumina,Bruno Fluidics Controller,0,v2.0420:A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+A1
+
+HiSeq::Syncing Y stage
+testing is_moving
+Ystage::txmt::g r0xa0
+
+Ystage::rcvd::v 268435456
+
+Ystage::Status Register::28:: Velocity window. Set if the absolute velocity error exceeds the velocity window value.
+Ystage::txmt::g r0x32
+
+Ystage::rcvd::v 61
+
+TDIYERD 9538048
+
+TDIYEWR
+
+TDIYERD 6999975
+
+TDIYEWR
+
+TDIYERD 7000177
+
+TDIYEWR
+
+TDIYERD 7000033
+
+TDIYEWR
+
+TDIYERD 6999829
+
+TDIYEWR
+
+TDIYERD 6999927
+
+TDIYEWR
+
+TDIYERD 7000171
+
+TDIYEWR
+
+TDIYERD 7000080
+
+TDIYEWR
+
+TDIYERD 6999820
+
+TDIYEWR
+
+TDIYERD 6999896
+
+TDIYEWR
+
+TDIYERD 7000172
+
+TDIYEWR
+
+TDIYERD 7000168
+
+TDIYEWR
+
+TDIYERD 6999841
+
+TDIYEWR
+
+TDIYERD 6999837
+
+TDIYEWR
+
+TDIYERD 7000159
+
+TDIYEWR
+
+TDIYERD 7000179
+
+TDIYEWR
+
+TDIYERD 6999835
+
+TDIYEWR
+
+TDIYERD 6999833
+
+TDIYEWR
+
+TDIYERD 7000115
+
+Traceback (most recent call last):
+  File "C:\Users\clarklab\Desktop\test.py", line 8, in <module>
+    hs.initializeInstruments()          # Initialize x,y,z & objective stages. Initialize lasers and optics (filters)
+  File "C:\Users\clarklab\PySeqX-master-JacobEdits\PySeqX-master\pyseq\__init__.py", line 305, in initializeInstruments
+    self.f.write_position(0)
+  File "C:\Users\clarklab\PySeqX-master-JacobEdits\PySeqX-master\pyseq\fpga.py", line 174, in write_position
+    self.command('TDIYEWR ' + str(position))
+  File "C:\Users\clarklab\PySeqX-master-JacobEdits\PySeqX-master\pyseq\fpga.py", line 133, in command
+    response = self.serial_port.readline()
+  File "C:\Users\clarklab\mambaforge\envs\pyseq\lib\site-packages\serial\serialutil.py", line 549, in readinto
+    data = self.read(len(b))
+  File "C:\Users\clarklab\mambaforge\envs\pyseq\lib\site-packages\serial\serialwin32.py", line 288, in read
+    result_ok = win32.GetOverlappedResult(

@@ -1,0 +1,22 @@
+time 20231120_123520
+y -1284107
+x 30000
+z [0, 0, 0]
+obj 32768
+frames 34
+bundle 128
+TDIY -1284076
+laser1 -1
+laser2 -1
+ex filters ['home', 'home']
+em filter in True
+interval 1 0.0028032
+interval 2 0.0028032
+flowcell A None °C
+flowcell B None °C
+frame count 1 34
+frame count 2 34
+clines TDICLINES 1023
+
+pulses TDIPULSES 48264
+
