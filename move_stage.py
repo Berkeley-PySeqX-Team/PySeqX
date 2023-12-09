@@ -1,8 +1,8 @@
 ## WORK IN PROGRESS!!! DOES NOT WORK!!! Feel free to debug if you see something.
 # adapted from kelly's while true loop
-import sys
-sys.path.insert(0, "C:\\Users\\clarklab\\PySeqX-master-JacobEdits\\PySeqX-master")
-import pyseq, time, asyncio
+import sys, time, asyncio
+sys.path.insert(0, "/Users/ethan/Documents/GitHub/PySeqX/PySeqX-master-JacobEdits/PySeqX-master")
+import pyseq
 
 hs = pyseq.HiSeq()
 x = 30000
